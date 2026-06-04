@@ -36,17 +36,18 @@ Look for an interface that isn't `lo`. Common names include:
 
 ## 🚀 Setup & Script Deployment
 
-### 1. Create and Write the Script
-1. Create a script file in your local binary path:
+### 1. Download and Place the Script
+1. Download the script file from this repo:
    ```bash
-   mkdir -p ~/.local/bin
-   nano ~/.local/bin/net_speed.sh
+   net_speed.sh
    ```
-2. Paste your optimized, stable network caching script into the file. Make sure your active interface name matches the target interface variable at the top of your script.
-3. Save and close the file (`Ctrl+O`, `Enter`, `Ctrl+X`).
-4. Give the file executable permissions so XFCE can run it:
+2. Edit the script file:
+   Edit the script file with any text editor. on 3rd line you can see this "INTERFACE="enp2s0". Just change enp2s0 to your Network Interface Name and save the file.
+   
+4. Put the script file in your local binary path:
+   Enable show hidden files and create the folders then put the script file there
    ```bash
-   chmod +x ~/.local/bin/net_speed.sh
+   /home/YOUR_USERNAME/.local/bin/net_speed.sh
    ```
 
 ### 🛠️ Configure the XFCE Top Panel Item
