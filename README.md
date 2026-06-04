@@ -37,7 +37,7 @@ Look for an interface that isn't `lo`. Common names include:
 ## 🚀 Setup & Script Deployment
 
 ### Download and Place the Script
-1. Download the script file from this repo:
+1. Download the script file from this repo's **Releases** tab:
    ```bash
    net_speed.sh
    ```
