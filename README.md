@@ -36,15 +36,14 @@ Look for an interface that isn't `lo`. Common names include:
 
 ## 🚀 Setup & Script Deployment
 
-### 1. Download and Place the Script
+### Download and Place the Script
 1. Download the script file from this repo:
    ```bash
    net_speed.sh
    ```
-2. Edit the script file:
-   Edit the script file with any text editor. on 3rd line you can see this "INTERFACE="enp2s0". Just change enp2s0 to your Network Interface Name and save the file.
-   
-4. Put the script file in your local binary path:
+2. Edit the script file with any text editor. On 3rd line you can see this `INTERFACE="enp2s0"`. Just change `enp2s0` to your Network Interface Name and save the file.
+
+3. Put the script file in your local binary path:
    Enable show hidden files and create the folders then put the script file there
    ```bash
    /home/YOUR_USERNAME/.local/bin/net_speed.sh
@@ -61,12 +60,6 @@ Look for an interface that isn't `lo`. Common names include:
 5. Click **Close**.
 
 ---
-
-## 🎨 Typography & Design Profile
-The script automatically exports perfectly compliant XFCE-Genmon XML markup. It structures the text in standard high-contrast formatting:
-```xml
-<txt><span font='Cascadia Code 10' weight='bold' color='#000000'>⬇ 1.2 MiB/s  ⬆ 45.8 KiB/s</span></txt>
-```
 
 ## 📄 License
 This utility is open-sourced under the MIT License. Feel free to copy, tweak, and integrate it into your dotfiles or desktop configurations!
